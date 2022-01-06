@@ -25,14 +25,7 @@ function menu() {
 
 // Selecciona los botones del menú
 
-// Informacion
-$("#btn-info").click(function() {
-    $("#menu").animate({
-        left:"-100%"
-    },"slow")
 
-    contador = 1;
-});
 
 
 

@@ -9,18 +9,18 @@ var ventana_ancho = $(window).innerWidth();
 
 
 // Brownies
-var Brownies =$(".Brownies").offset().top;
+// var Brownies =$(".Brownies").offset().top;
 
-$("#btn-brownies").on("click",function(e) {
-    e.preventDefault();
-    if (ventana_ancho >=1200) {
-        $("html, body").animate({scrollTop:Brownies},500)
-    }else if (ventana_ancho <1200 && ventana_ancho >=1000) {
-        $("html, body").animate({scrollTop:Brownies -50})
-    }else if (ventana_ancho<1000 && ventana_ancho >=280) {
-        $("html, body").animate({scrollTop:Brownies+20},500);   
-    };
-})
+// $("#btn-brownies").on("click",function(e) {
+//     e.preventDefault();
+//     if (ventana_ancho >=1200) {
+//         $("html, body").animate({scrollTop:Brownies},500)
+//     }else if (ventana_ancho <1200 && ventana_ancho >=1000) {
+//         $("html, body").animate({scrollTop:Brownies -50})
+//     }else if (ventana_ancho<1000 && ventana_ancho >=280) {
+//         $("html, body").animate({scrollTop:Brownies+20},500);   
+//     };
+// })
 
 
 
